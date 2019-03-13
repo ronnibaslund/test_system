@@ -1,0 +1,18 @@
+{
+    "test": {
+      "PORT": 3001,
+      "MONGODB_URI": "mongodb://mongo:27017/database",
+      "jwtSignature": "TD9JbvsJF3drh3n6fFqN"
+    },
+    "development": {
+      "PORT": 3000,
+      "MONGODB_URI": "mongodb://localhost:27017/database",
+      "jwtSignature": "8vmQT2Bxf7LQdjc9B8Qn"
+    },
+    "production": {
+      "PORT": 3000,
+      "MONGODB_URI": "mongodb://mongo:27017/database",
+      "jwtSignature": "jPQAZdpHpYHMc53v2Wmc"
+    }
+  }
+  
